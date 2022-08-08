@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Mono', monospace;
+}
+body{
+    overflow-x:hidden;
+    }
+.container{
+    margin: 0 auto;
+    width: 1110px;
+}
+header{
+    padding: 22px 0px;
+
+        nav{
+            width: 1106px;
+            height: 53px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .text{
+                align-items: center;
+                width: 415px;
+                display: flex;
+                justify-content: space-between;
+                img{
+                    width: 107.82px;
+                    height: 28.56px;
+                }
+                ul{
+                    margin-top: 16px;
+                    display: flex;
+                    width: 249px;
+                    height: 25px;
+                    justify-content: space-between;
+                    li{
+                        list-style: none;
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 15px;
+                        line-height: 25px;
+
+                        
+                        a{
+                            text-decoration: none;
+                            color: #939CAA;
+                              &:hover{
+                            color: #FCB72B;
+                            }
+                        }
+                       
+                    }
+                    }
+                }
+            
+            button{
+                width: 180px;
+                height: 53px;
+                background: #FCB72B;
+                border: none;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 15px;
+                text-align: center;
+                color: #FFFFFF;
+                &:hover{
+                    border: 3px solid #FCB72B;
+                    background: #fff;
+                    color:#FCB72B;
+                }
+            }
+        }
+    
+}
+.section1{
+    margin-top: -50px;
+    width: 1440px;
+    height: 200px;
+    margin: 0 auto;
+    background-image: url(../Images/bitmap\(3\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 75px 165px;
+    h1{
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 56px;
+        letter-spacing: -2.5px;
+        color: #FFFFFF;
+    }
+}
+.section2{
+    .world{
+            margin-top: 120px;
+            width: 1110px;
+            height: 543px;
+    }
+    .text-box{
+        margin-top: 122px;
+        display: flex;
+        width: 1111px;
+        height: 100px;
+        .p1{
+            width: 351px;
+            height: 96px;
+            font-family: 'Space Mono';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 48px;
+            letter-spacing: -2.14286px;
+            color: #495567;
+        }
+        .p2{
+            margin-left: 30px;
+            width: 445px;
+            height: 100px;
+            font-family: 'Lexend Deca';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            color: #939CAA;
+
+        }
+        button{
+            margin: 24px 0 23px 105px;
+            width: 180px;
+            height: 53px;
+            font-family: 'Space Mono';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 25px;
+            text-align: center;
+            color: #FFFFFF;
+            border:none;
+            background: #FCB72B;
+            &:hover{
+                border: 3px solid #FCB72B;
+                background: #fff;
+                color:#FCB72B;
+            }
+        }
+    }
+}
+footer{
+    margin-top: 120px;
+    .box{
+        background-repeat:no-repeat;
+        background-image: url(../Images/mask\(1\).png);
+        height: 300px;
+        width: 1440px;
+        margin-left: -165px;
+        padding: 102px 165px 102px 165px;
+        display: flex;
+        p{
+            width: 415px;
+            height: 96px;
+            font-family: 'Space Mono';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 48px;
+            letter-spacing: -2.14286px;
+            color: #FFFFFF;
+        }
+        .mini-box{
+            margin-left: 336px;
+            margin-top: 20px;
+            width: 359px;
+            height: 56px;
+            display: flex;
+            justify-content: space-between;
+            .app{
+                width: 159px;
+                height: 56px;
+                background: #E5ECF4;
+                border-radius: 4px;
+                padding: 8px 15px 9px 16px;
+                display: flex;
+                position: relative;
+
+                img{
+                    margin-top: 6px;
+                    width: 24.27px;
+                    height: 28px;
+                }
+                .text-box{
+                    .p1{
+                        font-family: 'Space Mono';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 10px;
+                        line-height: 15px;
+                        letter-spacing: -0.446429px;
+                        color: #495567;
+                        margin-left: 11.73px;
+                    }
+                    .p2{
+                        font-family: 'Space Mono';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 20px;
+                        line-height: 24px;
+                        letter-spacing: -0.892857px;
+                        color: #495567;
+                        position: absolute;
+                        top: 23px;
+                        left: 52px;
+                    }
+                }
+            }
+            .google{
+                width: 182px;
+                height: 56px;
+                background: #E5ECF4;
+                border-radius: 4px;
+                padding: 8px 15px 9px 16px;
+                display: flex;
+                position: relative;
+
+                img{
+                    margin-top: 6px;
+                    width: 23.9px;
+                    height: 27.07px;
+                }
+                .text-box{
+                    .p1{
+                        font-family: 'Space Mono';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 10px;
+                        line-height: 15px;
+                        letter-spacing: -0.446429px;
+                        color: #495567;
+                        margin-left: 12.1px;
+                    }
+                    .p2{
+                        font-family: 'Space Mono';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 20px;
+                        line-height: 24px;
+                        letter-spacing: -0.892857px;
+                        color: #495567;
+                        position: absolute;
+                        top: 23px;
+                        left: 52px;
+                    }
+
+                }
+            }
+        }
+    }
+    nav{
+        margin-left: -165px;
+        width: 1440px;
+        height: 96px;
+        display: flex;
+        background: #333A44;
+        align-items: center;
+        justify-content: space-between;
+        padding: 35px 165px;
+        .text{
+            align-items: center;
+            width: 415px;
+            display: flex;
+            justify-content: space-between;
+            img{
+                width: 107.82px;
+                height: 28.56px;
+            }
+            ul{
+                margin-top: 16px;
+                display: flex;
+                width: 249px;
+                height: 25px;
+                justify-content: space-between;
+                li{
+                    list-style: none;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 15px;
+                    line-height: 25px;
+                    a{
+                        text-decoration: none;
+                        color: #939CAA;
+                          &:hover{
+                        color: #FCB72B;
+                        }
+                    }
+                }
+            }
+        }
+        img{
+            width: 120px;
+            height: 24px;
+        }
+        
+    }
+}
+
+
+
+
+
+
+
+
